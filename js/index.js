@@ -1,4 +1,4 @@
 
-document.querySelector(".btn-ok").onclick = e => {
-   document.querySelector(".privacidad").style.display = 'none';
-}
+// document.querySelector(".btn-ok").onclick = e => {
+//    document.querySelector(".privacidad").style.display = 'none';
+// }
