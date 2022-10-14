@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Xurxo</title>
+    <link rel="shortcut icon" href="./images/avatar.jpg" type="image/x-icon">
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+    <section>
+        <h1>Haz tu consulta</h1>
+        <figure>
+            <img src="./images/banner.jpg" alt="WebFerrol">
+            <figcaption>Diseño y programación Web</figcaption>
+        </figure>
+        <form>
+            <ul class="campos">
+                <li class="campo">
+                    <label for="name">Nombre:</label>
+                    <input type="text" required id="name" name="user_name">
+                </li>
+                <li class="campo">
+                    <label for="mail">Correo electrónico:</label>
+                    <input type="email" required id="mail" name="user_mail">
+                </li>
+                <li class="campo">
+                    <label for="msg">Mensaje:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="campo">
+                    <fieldset>
+                        <legend>Mayor de edad</legend>
+                        <label>Sí <input name="adulto" value="si" type="radio"></label>
+                        <label>No <input name="adulto" value="no" type="radio"></label>
+                    </fieldset>
+                </li>
+            </ul>
+            <label>No soy un robot <input required name="no_robot" type="checkbox"></label>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </section>
+    <footer>
+        <section class="privacidad">
+            <h2>Valoramos tu privacidad</h2>
+            <p>Queremos que tu experiencia se ajuste lo máximo posible a tus preferencias. Por eso, tanto nosotros como
+                los terceros con los que trabajamos recopilamos datos sobre cómo y cuándo utilizas
+                <mark>Skyscanner</mark>. Estos datos nos sirven para recordar tu información, <em>mostrarte anuncios
+                    relevantes</em> y <em>mejorar nuestros servicios</em>. Tienes más información en nuestra <a
+                    href="pages/cookies.html">Política de Cookies</a>.</p>
+            <p>Pulsa <mark>Aceptar</mark> para <strong>permitir todas las cookies</strong> o <mark>Preferencias de
+                    cookies</mark> para personalizar tu configuración y excluir todas o algunas de las no esenciales.
+            </p>
+
+            <form action="pages/preferencias_cookies.html">
+                <input class="btn btn-ok" type="button" value="Aceptar">
+                <input type="submit" value="Preferencias de cookies">
+            </form>
+        </section>
+    </footer>
+</body>
+
+</html>
